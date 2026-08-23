@@ -1,0 +1,105 @@
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="textnote" icon="logo_textnote"/>
+        </row>
+        <row>
+            <button type="page" label="Max speed" targetlayout="max_limits"/>
+            <button type="page" label="Recommended" targetlayout="recommended_limits"/>
+            <button type="page" label="Minimum" targetlayout="minimum_limits"/>
+        </row>
+        <row>
+            <button type="page" label="Road signs" targetlayout="road_signs"/>
+        </row>
+    </layout>
+
+    <layout name="max_limits">
+        <row>
+            <button type="page" label="Home" targetlayout="root"/>
+            <button type="page" label="Recommended" targetlayout="recommended_limits"/>
+            <button type="page" label="Minimum" targetlayout="minimum_limits"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Maxspeed 30  ···" icon="maxspeed_icons/30.png"/>
+            <button type="tag" label="···  Maxspeed 40  ···" icon="maxspeed_icons/40.png"/>
+            <button type="tag" label="···  Maxspeed 50  ···" icon="maxspeed_icons/50.png"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Maxspeed 60  ···" icon="maxspeed_icons/60.png"/>
+            <button type="tag" label="···  Maxspeed 70  ···" icon="maxspeed_icons/70.png"/>
+            <button type="tag" label="···  Maxspeed 80  ···" icon="maxspeed_icons/80.png"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Maxspeed 90  ···" icon="maxspeed_icons/90.png"/>
+            <button type="tag" label="···  Maxspeed 100  ···" icon="maxspeed_icons/100.png"/>
+            <button type="tag" label="···  Maxspeed 120  ···" icon="maxspeed_icons/120.png"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Maxspeed End  ···" icon="maxspeed_icons/end.png"/>
+        </row>
+    </layout>
+
+    <layout name="recommended_limits">
+        <row>
+            <button type="page" label="Home" targetlayout="root"/>
+            <button type="page" label="Max speed" targetlayout="max_limits"/>
+            <button type="page" label="Road signs" targetlayout="road_signs"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Recommended 30  ···" icon="maxspeed_icons/30.png"/>
+            <button type="tag" label="···  Recommended 40  ···" icon="maxspeed_icons/40.png"/>
+            <button type="tag" label="···  Recommended 50  ···" icon="maxspeed_icons/50.png"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Recommended 60  ···" icon="maxspeed_icons/60.png"/>
+            <button type="tag" label="···  Recommended 70  ···" icon="maxspeed_icons/70.png"/>
+            <button type="tag" label="···  Recommended 80  ···" icon="maxspeed_icons/80.png"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Recommended 90  ···" icon="maxspeed_icons/90.png"/>
+            <button type="tag" label="···  Recommended 100  ···" icon="maxspeed_icons/100.png"/>
+            <button type="tag" label="···  Recommended 120  ···" icon="maxspeed_icons/120.png"/>
+        </row>
+    </layout>
+
+    <layout name="minimum_limits">
+        <row>
+            <button type="page" label="Home" targetlayout="root"/>
+            <button type="page" label="Max speed" targetlayout="max_limits"/>
+            <button type="page" label="Road signs" targetlayout="road_signs"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Minimum speed 10  ···"/>
+            <button type="tag" label="···  Minimum speed 20  ···"/>
+            <button type="tag" label="···  Minimum speed 30  ···"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Minimum speed 40  ···"/>
+            <button type="tag" label="···  Minimum speed 50  ···"/>
+            <button type="tag" label="···  Minimum speed 60  ···"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Minimum speed 70  ···"/>
+            <button type="tag" label="···  Minimum speed 80  ···"/>
+            <button type="tag" label="···  Minimum speed 90  ···"/>
+        </row>
+    </layout>
+
+    <layout name="road_signs">
+        <row>
+            <button type="page" label="Home" targetlayout="root"/>
+            <button type="page" label="Max speed" targetlayout="max_limits"/>
+            <button type="page" label="Recommended" targetlayout="recommended_limits"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Stop  ···"/>
+            <button type="tag" label="···  Give way  ···"/>
+            <button type="tag" label="···  Traffic light  ···"/>
+        </row>
+        <row>
+            <button type="tag" label="···  Static radar  ···" icon="maxspeed_icons/camera.png"/>
+            <button type="tag" label="···  Overtaking not allowed  ···"/>
+            <button type="tag" label="···  Overtaking restriction end  ···"/>
+        </row>
+    </layout>
+</layouts>
